@@ -32,7 +32,7 @@
     "list": "node cli.js list",
     "export": "node cli.js export",
     "import": "node cli.js import",
-    "test": "node --test test/"
+    "test": "node --test"
   },
   "engines": {
     "node": ">=18"
