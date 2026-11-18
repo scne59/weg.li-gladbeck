@@ -1,0 +1,14 @@
+node_modules/
+.env
+config.json
+config.json~
+state.json
+output/
+cache/
+export/
+export-photos/
+.chrome-profile/
+coverage/
+*.log
+*~
+.DS_Store

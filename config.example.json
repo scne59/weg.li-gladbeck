@@ -1,0 +1,35 @@
+{
+  "person": {
+    "anrede": "Herr",
+    "name": "",
+    "vorname": "",
+    "strasse": "",
+    "hausnummer": "",
+    "plz": "",
+    "ort": "",
+    "geburtsdatum": "",
+    "telefon": "",
+    "email": ""
+  },
+  "gladbeck": {
+    "serviceUrl": "https://serviceportal.gladbeck.de/extension/service/call/c685c3f7-200e-4fb8-86be-88c6b85b5dab",
+    "fahrzeugart": "PKW (Auto)",
+    "headless": true,
+    "chromePath": null,
+    "delaySeconds": 30,
+    "maxAgeDays": 5,
+    "allowedZips": [
+      "45964",
+      "45966",
+      "45968"
+    ]
+  },
+  "import": {
+    "photoMode": "auto",
+    "includeTokenInDescription": false,
+    "tbnrMap": {},
+    "skipNoteMarker": "\\[GLA-Fremdanzeige[^\\]]*\\]"
+  },
+  "outputDir": "output",
+  "cacheDir": "cache"
+}

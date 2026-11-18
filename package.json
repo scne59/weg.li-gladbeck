@@ -1,0 +1,45 @@
+{
+  "name": "wegli-gladbeck",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Eigene weg.li-Anzeigen exportieren und in das Gladbecker Fremdanzeigen-Formular übernehmen",
+  "license": "MIT",
+  "author": "scne59",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scne59/weg.li-gladbeck.git"
+  },
+  "homepage": "https://github.com/scne59/weg.li-gladbeck#readme",
+  "bugs": {
+    "url": "https://github.com/scne59/weg.li-gladbeck/issues"
+  },
+  "keywords": [
+    "weg.li",
+    "falschparker",
+    "anzeige",
+    "gladbeck",
+    "fremdanzeige",
+    "cli",
+    "puppeteer"
+  ],
+  "main": "cli.js",
+  "bin": {
+    "wegli-gladbeck": "cli.js"
+  },
+  "scripts": {
+    "start": "node cli.js",
+    "doctor": "node cli.js doctor",
+    "list": "node cli.js list",
+    "export": "node cli.js export",
+    "import": "node cli.js import",
+    "test": "node --test test/"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "dotenv": "^18.0.10",
+    "puppeteer-core": "^23.11.1",
+    "sharp": "^0.35.5"
+  }
+}
